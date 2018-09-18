@@ -1,0 +1,12 @@
+Subdomain AssessmentMetadata of Assessment
+    documentation
+"Assessment metadata is information describing the assessment. The model reflects four levels of definition, designed to  accommodate a wide variety of assessment reporting, as follows:
+* The AssessmentFamily is the optional identification for a family of tests. For example, a family of statewide tests might be identified for a set of subject assessments at various grade levels. If required, AssessmentFamilies may be hierarchically organized. Semantically, characteristics of an AssessmentFamily are ""inherited"" by the individual Assessments.
+* There are two options to associate an Assessment which are mutually exclusive: by Section and by Program. For example, if an Assessment is defined to assess Common Core Standards, then the association shall be with Section, on the other hand if the Assessment is defined to assess the Developmental Domains by an Early Learning program, then the association shall be with Program."
+    domain entity Assessment
+    domain entity AssessmentFamily
+    domain entity AssessmentItem
+    domain entity ObjectiveAssessment
+    domain entity Program
+    domain entity Section
+    position 2

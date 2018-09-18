@@ -1,0 +1,5 @@
+Descriptor CompetencyLevel [285]
+    documentation "This descriptor defines various levels for assessed competencies."
+    enumeration PerformanceBaseConversion [286]
+        documentation "A conversion of the level to a standard set of competency levels."
+        is optional

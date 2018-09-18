@@ -1,0 +1,8 @@
+Enumeration CourseRepeatCode [153]
+    documentation "Indicates that an academic course has been repeated by a student and how that repeat is to be computed in the student's academic grade average."
+    item "Repeat Counted" [153-002]
+    item "Repeat NotCounted" [153-003]
+    item "Replacement Counted" [153-006]
+    item "Replaced NotCounted" [153-005]
+    item "Repeat Other Institution" [153-004]
+    item "Not Counted Other" [153-001]

@@ -1,0 +1,23 @@
+Domain Entity LeaveEvent [568]
+    documentation "This event entity represents the recording of the dates of staff leave (e.g., sick leave, personal time, vacation)."
+    date EventDate [1506]
+        documentation "Date for this leave event."
+        is part of identity
+    enumeration LeaveEventCategory [1508]
+        documentation "The code describing the type of leave taken, for example:
+        Sick
+        Personal
+        Vacation."
+        is part of identity
+    shared string LeaveEventReason [1509]
+        documentation "Expanded reason for the staff leave."
+        is optional
+    shared decimal HoursOnLeave [1507]
+        documentation "The hours the staff was absent, if not the entire working day."
+        is optional
+    bool SubstituteAssigned [1511]
+        documentation "Indicator of whether a substitute was assigned during the period of staff leave."
+        is optional
+    domain entity Staff [1510]
+        documentation "The staff associated with this leave event."
+        is part of identity

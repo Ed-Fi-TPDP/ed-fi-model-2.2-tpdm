@@ -1,0 +1,13 @@
+Enumeration PopulationServed [205]
+    documentation "The type of students the Section is offered and tailored to."
+    item "Regular Students" [205-010]
+    item "Bilingual Students" [205-002]
+    item "Compensatory/Remedial Education Students" [205-004]
+    item "Gifted and Talented Students" [205-007]
+    item "Career and Technical Education Students" [205-003]
+    item "Special Education Students" [205-011]
+    item "ESL Students" [205-006]
+    item "Adult Basic Education Students" [205-001]
+    item "Honors Students" [205-008]
+    item "Migrant Students" [205-009]
+    item "Economic Disadvantaged" [205-005]

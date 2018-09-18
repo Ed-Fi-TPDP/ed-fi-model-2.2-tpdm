@@ -1,0 +1,5 @@
+Descriptor ProgramCharacteristic [210]
+    documentation "This descriptor defines important characteristics of the Program, such as categories or particular indications."
+    with optional map type
+        documentation "Reflects important characteristics of the Program, such as categories or particular indications."
+        item "A McKinney-Vento Program for Homelessness" [210-001]

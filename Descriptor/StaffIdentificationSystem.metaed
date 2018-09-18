@@ -1,0 +1,19 @@
+Descriptor StaffIdentificationSystem [238]
+    documentation "This descriptor defines the originating record system and code that is used for record-keeping purposes of the staff."
+    with optional map type
+        documentation "A coding scheme that is used for identification and record-keeping purposes by schools, social services or other agencies to refer to a staff member."
+        item "Canadian SIN" [238-001]
+        item "District" [238-002]
+        item "Drivers License" [238-003]
+        item "Federal" [238-004]
+        item "Health Record" [238-005]
+        item "Medicaid" [238-006]
+        item "PIN" [238-009]
+        item "Professional Certificate" [238-011]
+        item "School" [238-012]
+        item "Selective Service" [238-013]
+        item "SSN" [238-014]
+        item "State" [238-015]
+        item "US Visa" [238-016]
+        item "Other" [238-007]
+        item "Other Federal" [238-008]

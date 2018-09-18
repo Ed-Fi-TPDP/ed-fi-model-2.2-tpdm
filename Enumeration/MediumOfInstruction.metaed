@@ -1,0 +1,18 @@
+Enumeration MediumOfInstruction [196]
+    documentation "The media through which teachers provide instruction to students and students and teachers communicate about instructional matters."  
+    item "Center-based instruction" [196-001]
+    item "Correspondence instruction" [196-002]
+        documentation "Course is taught via hard or electronic copy or other media (CD, DVD, video cassette) and student works at own pace usually without an instructor present, but generally under supervision of LEA. Includes ""packet"" programs."
+    item "Distance Learning (other than online)" [196-003]
+    item "Face-to-face instruction" [196-004]
+        documentation "Course is taught primarily in person and usually in a conventional classroom or lecture hall."
+    item "Independent study" [196-005]
+        documentation "Structured learning experience is recognized for credit but is not under supervision of the LEA."
+    item "Internship" [196-006]
+    item "Other" [196-007]
+    item "Other technology-based instruction" [196-008]
+    item "Technology-based instruction in classroom" [196-009]
+    item "Telepresence/video conference" [196-010]
+    item "Televised" [196-011]
+    item "Videotaped/prerecorded video" [196-012]
+    item "Virtual/On-line Distance learning" [196-013]

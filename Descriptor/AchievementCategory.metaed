@@ -1,0 +1,16 @@
+Descriptor AchievementCategory [123]
+    documentation "This descriptor defines the category of achievement attributed to the learner."
+    with optional map type
+        documentation "The category of achievement attributed to the learner."
+        item "Competency Mastered" [123-003]
+        item "Competency Retained" [123-004]
+        item "Course Completed" [123-005]
+        item "Level Completed" [123-007]
+        item "Certificate Earned" [123-002]
+        item "Diploma Earned" [123-006]
+        item "License Earned" [123-008]
+        item "License Endorsement Earned" [123-009]
+        item "Participation" [123-011]
+        item "Academic Honor" [123-001]
+        item "Non-Academic Honor" [123-010]
+        item "Recognition" [123-012]

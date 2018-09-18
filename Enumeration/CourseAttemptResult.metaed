@@ -1,0 +1,10 @@
+Enumeration CourseAttemptResult [148]
+    documentation "The result from the student's attempt to take the course, for example:
+    Pass
+    Fail
+    Incomplete
+    Withdrawn"
+    item "Pass" [148-003]
+    item "Fail" [148-001]
+    item "Incomplete" [148-002]
+    item "Withdrawn" [148-004]

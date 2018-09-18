@@ -1,0 +1,8 @@
+Descriptor SchoolFoodServicesEligibility [229]
+    documentation "This descriptor defines indications of a student's level of eligibility for breakfast, lunch, snack, supper, and milk programs."
+    with optional map type
+        documentation "An indication of a student's level of eligibility for breakfast, lunch, snack, supper, and milk programs."
+        item "Free" [229-001]
+        item "Full price" [229-002]
+        item "Reduced price" [229-003]
+        item "Unknown" [229-004]

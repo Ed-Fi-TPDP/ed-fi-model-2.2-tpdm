@@ -1,0 +1,4 @@
+Shared String LeaveEventReason [68]
+    documentation "Expanded reason for the staff leave."
+    min length 1
+    max length 40

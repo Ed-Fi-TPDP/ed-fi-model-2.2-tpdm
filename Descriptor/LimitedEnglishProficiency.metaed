@@ -1,0 +1,8 @@
+Descriptor LimitedEnglishProficiency [193]
+    documentation "This descriptor defines the indications that the student has been identified as limited English proficient by the Language Proficiency Assessment Committee (LPAC), or English proficient. The mapping of descriptor values to known Ed-Fi enumeration values is required."
+    with map type
+        documentation "An indication that the student has been identified as Limited English Proficient or English Proficient by the Language Proficiency Assessment Committee (LPAC)."
+        item "NotLimited" [193-004]
+        item "Limited" [193-001]
+        item "Limited Monitored 1" [193-002]
+        item "Limited Monitored 2" [193-003]

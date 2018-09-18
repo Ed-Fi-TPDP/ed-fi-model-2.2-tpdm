@@ -1,0 +1,8 @@
+Choice SectionOrProgramChoice [2504]
+    documentation "NEEDS DOCUMENTATION"
+    domain entity Section [1239]
+        documentation "The Section(s) to which the Assessment is associated."
+        is required collection
+    domain entity Program [1237]
+        documentation "The programs associated with the Assessment."
+        is required collection

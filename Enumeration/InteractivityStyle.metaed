@@ -1,0 +1,6 @@
+Enumeration InteractivityStyle [185]
+    documentation "The predominate mode of learning supported by the learning resource. Acceptable values are active, expositive, or mixed."
+    item "Active" [185-001]
+    item "Expositive" [185-002]
+    item "Mixed" [185-003]
+    item "Other" [185-004]

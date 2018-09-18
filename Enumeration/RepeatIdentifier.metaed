@@ -1,0 +1,10 @@
+Enumeration RepeatIdentifier [219]
+    documentation "An indication as to whether a student has previously taken a given course."
+    item "Repeated, counted in grade point average" [219-004]
+    item "Repeated, not counted in grade point average" [219-005]
+    item "Replacement counted" [219-007]
+    item "Replacement not counted" [219-008]
+    item "Repeated, other institution" [219-006]
+    item "Not repeated" [219-001]
+    item "Other, not counted in GPA" [219-003]
+    item "Other" [219-002]

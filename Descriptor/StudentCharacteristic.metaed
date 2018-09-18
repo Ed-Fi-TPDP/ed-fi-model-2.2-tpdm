@@ -1,0 +1,19 @@
+Descriptor StudentCharacteristic [240]
+    documentation "This descriptor defines the set of important characteristics of the student."
+    with optional map type
+        documentation "Enumeration items for the important characteristics of the student's home situation: Displaced Homemaker, Homeless, Immigrant, Migratory, Military Parent, Pregnant Teen, Single Parent, and Unaccompanied Youth."
+        item "Asylee" [240-004]
+        item "Displaced Homemaker" [240-005]
+        item "Foster Care" [240-010]
+        item "Homeless" [240-013]
+        item "Immigrant" [240-015]
+        item "Neglected or Delinquent" [240-020]
+        item "Migrant" [240-019]
+        item "Other" [240-034]
+        item "Parent in Military" [240-021]
+        item "Pregnant" [240-022]
+        item "Refugee" [240-025]
+        item "Runaway" [240-028]
+        item "Section 504 Handicapped" [240-029]
+        item "Single Parent" [240-030]
+        item "Unaccompanied Youth" [240-033]

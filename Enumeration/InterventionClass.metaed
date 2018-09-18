@@ -1,0 +1,6 @@
+Enumeration InterventionClass [187]
+    documentation "The way in which an intervention is used: curriculum, supplement, or practice."
+    item "Curriculum" [187-001]
+    item "Other" [187-004]
+    item "Practice" [187-002]
+    item "Supplement" [187-003]

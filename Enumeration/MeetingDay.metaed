@@ -1,0 +1,9 @@
+Enumeration MeetingDay [197]
+    documentation "The enumeration items for the day(s) of the week (e.g., Monday, Wednesday) that the class meets or an indication that a class meets ""out-of-school"" or ""self-paced""."
+    item "Monday" [197-002]
+    item "Tuesday" [197-006]
+    item "Wednesday" [197-007]
+    item "Thursday" [197-005]
+    item "Friday" [197-001]
+    item "Saturday" [197-003]
+    item "Sunday" [197-004]

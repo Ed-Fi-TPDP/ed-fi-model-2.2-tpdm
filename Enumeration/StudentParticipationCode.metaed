@@ -1,0 +1,6 @@
+Enumeration StudentParticipationCode [242]
+    documentation "The role or type of participation of a student in a discipline incident; for example: Victim, Perpetrator, Witness, Reporter."
+    item "Victim" [242-003]
+    item "Perpetrator" [242-001]
+    item "Witness" [242-004]
+    item "Reporter" [242-002]

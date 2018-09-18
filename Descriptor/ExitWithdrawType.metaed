@@ -1,0 +1,19 @@
+Descriptor ExitWithdrawType [174]
+    documentation "This descriptor defines the circumstances under which the student exited from membership in an educational institution."
+    with optional map type
+        documentation "The circumstances under which the student exited from membership in an educational institution."
+        item "Transferred" [174-014]
+        item "Graduated" [174-007]
+        item "Completed" [174-001]
+        item "Died or is permanently incapacitated" [174-002]
+        item "Withdrawn" [174-015]
+        item "Expelled" [174-006]
+        item "Reached maximum age" [174-013]
+        item "Enrolled in a high school diploma program" [174-005]
+        item "Involuntarily Removed" [174-010]
+        item "Incarcerated" [174-008]
+        item "Dropout" [174-003]
+        item "End of school year" [174-004]
+        item "Invalid enrollment" [174-009]
+        item "No show" [174-011]
+        item "Other" [174-012]

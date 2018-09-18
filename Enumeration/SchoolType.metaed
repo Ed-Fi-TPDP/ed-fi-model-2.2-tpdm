@@ -1,0 +1,9 @@
+Enumeration SchoolType [230]
+    documentation "The type of education institution as classified by its primary focus."
+    item "Alternative" [230-001]
+        documentation "A school that: 1) addresses needs of students which cannot typically be met in a regular school; 2) provides nontraditional education; 3) falls outside of the categories of regular, magnet/special program emphasis, special, or career and technical education."
+    item "Regular" [230-003]
+        documentation "A school providing instruction and educational services that do not focus primarily on special education, career and technical education, or alternative education."
+    item "Special Education" [230-004]
+        documentation "A school that adapts the curriculum, materials, or instruction for students identified as needing special education. This may include instruction for students with any of the following: autism, deaf-blindness, hearing impairment, mental retardation, multiple disabilities, orthopedic impairment, serious emotional disturbance, specific learning disability, speech or language impairment, traumatic brain injury, visual impairment, and other health impairments."
+    item "Career and Technical Education" [230-002]

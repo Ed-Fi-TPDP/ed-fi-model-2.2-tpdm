@@ -1,0 +1,12 @@
+Descriptor SpecialEducationSetting [236]
+    documentation "This descriptor defines the major instructional setting (more than 50 percent of a student's special education program)."
+    with optional map type
+        documentation "The major instructional setting (more than 50 percent of a student's special education program)."
+        item "Inside regular class 80% or more of the day" [236-003]
+        item "Inside regular class no more than 79% of day and no less than 40% of the day" [236-005]
+        item "Inside regular class less than 40% of the day" [236-004]
+        item "Separate School" [236-008]
+        item "Residential Facility" [236-007]
+        item "Homebound/Hospital" [236-002]
+        item "Correctional Facilities" [236-001]
+        item "Parentally-placed in Private Schools" [236-006]

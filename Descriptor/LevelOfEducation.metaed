@@ -1,0 +1,11 @@
+Descriptor LevelOfEducation [192]
+    documentation "This descriptor defines the different levels of education achievable."
+    with optional map type
+        documentation "The enumeration of the different levels of education achievable."
+        item "Did Not Graduate High School" [192-003]
+        item "High School Diploma" [192-005]
+        item "Some College No Degree" [192-007]
+        item "Bachelor's" [192-002]
+        item "Master's" [192-006]
+        item "Doctorate" [192-004]
+        item "Associate's Degree (two years or more)" [192-001]

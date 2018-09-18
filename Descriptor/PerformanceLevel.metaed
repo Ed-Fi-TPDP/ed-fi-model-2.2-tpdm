@@ -1,0 +1,5 @@
+Descriptor PerformanceLevel [318]
+    documentation "This descriptor defines various levels or thresholds for performance on the assessment."
+    enumeration PerformanceBaseConversion [319]
+        documentation "A conversion of the level to a standard set of performance levels."
+        is optional

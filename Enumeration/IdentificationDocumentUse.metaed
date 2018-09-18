@@ -1,0 +1,5 @@
+Enumeration IdentificationDocumentUse [181]
+    documentation "Identifies the type of use given to an identification document."
+    item "Personal Information Verification" [181-002]
+    item "US Citizenship Identification" [181-003]
+    item "Foreign Citizenship Identification" [181-001]

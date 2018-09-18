@@ -1,0 +1,11 @@
+Descriptor AccountCode [266]
+    documentation "This descriptor holds the set of account codes defined for the education accounting system organized by account code type (e.g., fund, function, object)."
+    shared string AccountCodeCategory [267]
+        documentation "The type of the account code (e.g., fund, function, object)."
+        is required
+    date BeginDate [268]
+        documentation "The first date the account code is valid."
+        is optional
+    date EndDate [269]
+        documentation "The last date the account code is valid."
+        is optional

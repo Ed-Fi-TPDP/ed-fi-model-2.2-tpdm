@@ -1,0 +1,5 @@
+Association StudentCTEProgramAssociation based on StudentProgramAssociation [606]
+    documentation "This association represents the career and technical education (CTE) program that a student participates in. The association is an extension of the StudentProgramAssociation particular for CTE programs."
+    common CTEProgram [1061]
+        documentation "The career cluster representing the career path of the Vocational/Career Tech concentrator."
+        is optional collection

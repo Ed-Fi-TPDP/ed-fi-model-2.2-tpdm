@@ -1,0 +1,7 @@
+Descriptor Language [189]
+    documentation "This descriptor defines the language(s) that are spoken or written."
+    with optional map type
+        documentation "The category denoting language(s) spoken or written."
+        item "Spanish" [189-003]
+        item "English" [189-001]
+        item "Other" [189-002]

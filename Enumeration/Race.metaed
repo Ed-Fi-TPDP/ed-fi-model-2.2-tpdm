@@ -1,0 +1,9 @@
+Enumeration Race [214]
+    documentation "The enumeration items defining the racial categories which most clearly reflects the individual's recognition of his or her community or with which the individual most identifies."
+    item "American Indian - Alaskan Native" [214-001]
+    item "Asian" [214-002]
+    item "Black - African American" [214-003]
+    item "Choose Not to Respond" [214-006]
+    item "Native Hawaiian - Pacific Islander" [214-004]
+    item "Other" [214-007]
+    item "White" [214-005]

@@ -1,0 +1,12 @@
+Enumeration AdditionalCreditType [124]
+    documentation "The type of additional credits or units of value awarded for the completion of a course."
+    item "Advanced Placement" [124-001]
+        documentation "Additional credits from a high school course that offers college credit if successfully completed."
+    item "Dual credit" [124-003]
+        documentation "Additional credits from a postsecondary course that offers a dual-enrolled high school student high school credit if successfully completed."
+    item "International Baccalaureate" [124-004]
+        documentation "Additional credits earned based on completion of an International Baccalaureate program."
+    item "Other" [124-005]
+        documentation "Additional credits earned by other means."
+    item "Career and Technical Education" [124-002]
+        documentation "Additional credits earned through successful completion off a CTE program."

@@ -1,0 +1,9 @@
+Enumeration TitleIPartASchoolDesignation [248]
+    documentation "Denotes the Title I Part A designation for the school."
+    item "Not designated as a Title I Part A school" [248-001]
+    item "Title I Part A Schoolwide Assistance Program School" [248-002]
+    item "Title I Part A Targeted Assistance School" [248-003]
+    item "Title I targeted eligible school - no program" [248-006]
+    item "Title I targeted school" [248-007]
+    item "Title I school wide eligible - Title I targeted program" [248-004]
+    item "Title I school wide eligible school - no program" [248-005]

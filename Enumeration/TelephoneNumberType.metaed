@@ -1,0 +1,10 @@
+Enumeration TelephoneNumberType [245]
+    documentation "The type of communication number listed for an individual."
+    item "Fax" [245-003]
+    item "Emergency 1" [245-001]
+    item "Emergency 2" [245-002]
+    item "Home" [245-004]
+    item "Mobile" [245-005]
+    item "Other" [245-006]
+    item "Unlisted" [245-007]
+    item "Work" [245-008]

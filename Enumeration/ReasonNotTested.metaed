@@ -1,0 +1,24 @@
+Enumeration ReasonNotTested [216]
+    documentation "The primary reason student is not tested. For example:
+    Absent
+    Refusal by parent
+    Refusal by student
+    Medical waiver
+    Illness
+    Disruptive behavior
+    LEP Exempt
+    '..."
+    item "Absent" [216-001]
+    item "LEP exempt" [216-005]
+    item "LEP postponement" [216-006]
+    item "Not appropriate (ARD decision)" [216-008]
+    item "Not tested (ARD decision)" [216-009]
+    item "Alternate assessment administered" [216-002]
+    item "Parental waiver" [216-011]
+    item "Foreign exchange student waiver" [216-004]
+    item "Refusal by parent" [216-013]
+    item "Refusal by student" [216-014]
+    item "Medical waiver" [216-007]
+    item "Disruptive behavior" [216-003]
+    item "Previously passed the examination" [216-012]
+    item "Other" [216-010]

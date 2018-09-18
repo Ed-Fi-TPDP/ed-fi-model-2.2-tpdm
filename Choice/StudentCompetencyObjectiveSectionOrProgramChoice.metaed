@@ -1,0 +1,8 @@
+Choice StudentCompetencyObjectiveSectionOrProgramChoice [2505]
+    documentation "NEEDS DOCUMENTATION"
+    association StudentSectionAssociation [1749]
+        documentation "Relates the Student and Section associated with the CompetencyObjective."
+        is required
+    association StudentProgramAssociation [1747]
+        documentation "Relates the Student and Program associated with the CompetencyObjective."
+        is required

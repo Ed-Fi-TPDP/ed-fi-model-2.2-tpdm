@@ -1,0 +1,6 @@
+Enumeration CharterApprovalAgencyType [2422]
+    documentation "The type of agency that approved the establishment or continuation of a charter school."
+    item "State board of education" [2422-001]
+    item "Public charter school board" [2422-002]
+    item "University" [2422-003]
+    item "Other" [2422-099]

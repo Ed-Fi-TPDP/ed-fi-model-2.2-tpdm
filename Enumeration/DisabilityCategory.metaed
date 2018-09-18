@@ -1,0 +1,5 @@
+Enumeration DisabilityCategory [161]
+    documentation "The type of disability designation (e.g., IDEA, Section 504)."
+    item "Individuals with Disabilities Education Act" [161-001]
+    item "Section 504" [161-003]
+    item "Other" [161-002]

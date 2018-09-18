@@ -1,0 +1,4 @@
+Enumeration CostRate [145]
+    documentation "The rate by which a cost applies (e.g. $1 per student)."
+    item "Flat Fee" [145-001]
+    item "Per Student" [145-002]

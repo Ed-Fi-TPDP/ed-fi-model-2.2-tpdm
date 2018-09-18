@@ -1,0 +1,9 @@
+Choice StudentLearningObjectiveSectionOrProgramChoice [2506]
+    documentation "NEEDS DOCUMENTATION"
+    association StudentSectionAssociation [1766]
+        documentation "Relates the Student and Section associated with the LearningObjective."
+        is required
+    association StudentProgramAssociation [1764]
+        documentation "Relates the Student and Program associated with the LearningObjective."
+        is required
+        merge StudentProgramAssociation.Student with StudentSectionAssociation.Student

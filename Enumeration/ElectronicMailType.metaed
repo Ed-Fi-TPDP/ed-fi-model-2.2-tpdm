@@ -1,0 +1,6 @@
+Enumeration ElectronicMailType [169]
+    documentation "The type of email listed for an individual or organization."
+    item "Home/Personal" [169-001]
+    item "Organization" [169-002]
+    item "Other" [169-003]
+    item "Work" [169-004]

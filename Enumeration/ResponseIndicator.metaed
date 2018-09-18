@@ -1,0 +1,11 @@
+Enumeration ResponseIndicator [222]
+    documentation "Indicator of the response.  For example:
+    Nonscorable response
+    Ineffective response
+    Effective response
+    Partial response
+    ..."
+    item "Nonscorable response" [222-003]
+    item "Ineffective response" [222-002]
+    item "Effective response" [222-001]
+    item "Partial response" [222-004]

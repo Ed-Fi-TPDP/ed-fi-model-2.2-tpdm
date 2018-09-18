@@ -1,0 +1,5 @@
+Descriptor Service [338]
+    documentation "This descriptor defines the services provided by an education organization to populations of students associated with a program."
+    shared string ServiceCategory [339]
+        documentation "A classification of the behavior for reporting types."
+        is optional

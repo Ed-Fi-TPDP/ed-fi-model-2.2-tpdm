@@ -1,0 +1,5 @@
+Enumeration RestraintEventReason [224]
+    documentation "The items of categorization of the circumstances or reason for the restraint."
+    item "Imminent Serious Physical Harm To Themselves" [224-002]
+    item "Imminent Serious Physical Harm To Others" [224-001]
+    item "Imminent Serious Property Destruction" [224-003]

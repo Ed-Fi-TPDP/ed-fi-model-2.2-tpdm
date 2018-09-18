@@ -1,0 +1,6 @@
+Enumeration GunFreeSchoolsActReportingStatus [180]
+    documentation "An indication of whether the school or local education agency (LEA) submitted a Gun-Free Schools Act (GFSA) of 1994 report to the state, as defined by Title 18, Section 921."
+    item "Yes, with reporting of one or more students for an offense" [180-004]
+    item "Yes, with no reported offenses" [180-003]
+    item "No" [180-001]
+    item "Not applicable" [180-002]

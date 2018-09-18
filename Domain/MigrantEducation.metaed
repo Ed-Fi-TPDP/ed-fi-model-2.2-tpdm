@@ -1,0 +1,17 @@
+Domain MigrantEducation
+    documentation
+"The Migrant Education subdomain of the Alternative and Supplemental Services domain extends the StudentProgramAssociation to specify attributes specific to the Migrant Education program, such as the first date and the most recent entry of a student into the United States, the student's initial school entry date, and the student's last qualifying move."
+    common AttendanceEvent
+    domain entity EducationOrganization
+    domain entity Program
+    domain entity School
+    domain entity Section
+    domain entity SectionAttendanceTakenEvent
+    domain entity Staff
+    association StaffProgramAssociation
+    association StaffSchoolAssociation
+    association StaffSectionAssociation
+    domain entity Student
+    association StudentMigrantEducationProgramAssociation
+    association StudentProgramAssociation
+    association StudentSectionAssociation

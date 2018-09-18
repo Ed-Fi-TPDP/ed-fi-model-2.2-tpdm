@@ -1,0 +1,4 @@
+Enumeration LocalEducationAgencyCategory [194]
+    documentation "The category of local education agency/district. For example: Independent or Charter."
+    item "Independent" [194-001]
+    item "Charter" [194-002]

@@ -1,0 +1,38 @@
+Enumeration AcademicHonorCategory [120]
+    documentation "A designation of the type of academic distinctions earned by or awarded to the student."
+    item "Attendance award" [120-001]
+        documentation "Recognition of a student's superior attendance record."
+    item "Awarding of units of value" [120-002]
+        documentation "Awards or recognition given to a student for the completion of course or activity requirements in a form of pre-determined set of numeric values."
+    item "Certificate" [120-003]
+        documentation "Certificate given to a student in recognition of his/her achievements (e.g., an award for perfect attendance during the school year)."
+    item "Citizenship award/recognition" [120-004]
+        documentation "Awards or recognition given to a student for the demonstration of good citizenship (e.g., voluntary community services)."
+    item "Completion of requirement, but no units of value awarded" [120-005]
+        documentation "Recognition of a student's completion of the requirement for a course or an activity; no unit of value awarded."
+    item "Honor award" [120-006]
+        documentation "An award given to a candidate for exceptional performance."
+    item "Honor roll" [120-007]
+        documentation "A category of students who achieve high grades during a session or year."
+    item "Honor society" [120-008]
+        documentation "A rank organization that recognizes students who excel academically or as leaders among their peers, often within a specific academic discipline."
+    item "Honorable mention" [120-009]
+        documentation "A commendation given to a candidate in an examination or competition who is not awarded a prize."
+    item "Honors program" [120-010]
+        documentation "A designation awarding participation in an organization's honors program, which is specifically designed to give exceptionally able students additional and appropriate educational challenges beyond standard curriculum."
+    item "Letter of student commendation" [120-011]
+        documentation "A written letter, usually prepared and signed by the senior management of an organization, commending the employee for his or her contribution to and/or achievement in an organization."
+    item "Medals" [120-012]
+        documentation "Medal given to a student in recognition of his/her achievements (e.g., academic medals, athletic medals, and citizenship medals)."
+    item "National Merit Scholar" [120-013]
+        documentation "Designation as one of the highest achieving students out of those who were awarded a competitive scholarship from the National Merit Scholarship Corporation. Less than 1% of entrants qualify as National Merit Scholars."
+    item "Other" [120-014]
+        documentation "Other academic honors."
+    item "Points" [120-015]
+        documentation "Points awarded to a student in recognition of his or her achievements."
+    item "Prize awards" [120-016]
+        documentation "An award given to a candidate for one time or ongoing performance."
+    item "Promotion or advancement" [120-017]
+        documentation "Promotion or advancement awarded to a student in recognition of his/her achievements (e.g., advancement from regular to honors class, and promotion from junior varsity to varsity)."
+    item "Scholarships" [120-018]
+        documentation "An award of financial aid for a student to further his or her education."

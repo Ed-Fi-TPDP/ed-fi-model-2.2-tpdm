@@ -1,0 +1,5 @@
+Enumeration Sex [235]
+    documentation "A person's gender."
+    item "Female" [235-001]
+    item "Male" [235-002]
+    item "Not Selected" [235-003]

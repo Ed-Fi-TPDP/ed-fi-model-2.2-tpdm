@@ -1,0 +1,19 @@
+Domain Entity BellSchedule [543]
+    documentation "This entity represents the schedule of class period meeting times."
+    shared string BellScheduleName [1262]
+        documentation "Name or title of the BellSchedule."
+        is part of identity
+    descriptor GradeLevel [1264]
+        documentation "The grade levels the particular BellSchedule applies to."
+        is part of identity
+    domain entity School [1266]
+        documentation "The school for which the BellSchedule is defined."
+        is part of identity
+        is weak
+    common MeetingTime [1265]
+        documentation "The times at which this BellSchedule is intended to meet."
+        is required collection
+        merge MeetingTime.ClassPeriod.School with School
+    domain entity CalendarDate [1263]
+        documentation "The first calendar date of the BellSchedule."
+        is part of identity

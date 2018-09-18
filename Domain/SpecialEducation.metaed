@@ -1,0 +1,16 @@
+Domain SpecialEducation
+    documentation
+"The Special Education subdomain of the Alternative and Supplemental Services domain extends the StudentProgramAssociation. A StudentSpecialEducationProgramAssociation entity provides important information about the student's participation in the Special Education Program, such as the service provider, key Individualized Education Program dates, and data about thenature of the student's disability. In addition, a RestraintEvents entity is included to represent information about special education medical restraint occurrences related to a student."
+    common AttendanceEvent
+    domain entity EducationOrganization
+    domain entity Program
+    domain entity RestraintEvent
+    domain entity School
+    domain entity Section
+    domain entity Staff
+    association StaffSectionAssociation
+    association StaffProgramAssociation
+    domain entity Student
+    association StudentProgramAssociation
+    association StudentSectionAssociation
+    association StudentSpecialEducationProgramAssociation

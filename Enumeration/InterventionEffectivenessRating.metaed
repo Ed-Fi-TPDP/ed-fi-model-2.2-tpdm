@@ -1,0 +1,9 @@
+Enumeration InterventionEffectivenessRating [188]
+    documentation "An intervention demonstrates effectiveness if the research has shown that the program caused an improvement in outcomes. Rating Values: positive effects, potentially positive effects, mixed effects, potentially negative effects, negative effects, and no discernible effects."
+    item "Positive Effects" [188-004]
+    item "Potentially Positive Effects" [188-006]
+    item "Mixed Effects" [188-001]
+    item "Potentially Negative Effects" [188-005]
+    item "Negative Effects" [188-002]
+    item "No Discernible Effects" [188-003]
+    item "Other" [188-007]

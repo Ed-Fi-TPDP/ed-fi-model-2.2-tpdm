@@ -1,0 +1,5 @@
+Enumeration InternetAccess [186]
+    documentation "The type of Internet access available."
+    item "High Speed" [186-001]
+    item "Less Than High Speed" [186-002]
+    item "None" [186-003]

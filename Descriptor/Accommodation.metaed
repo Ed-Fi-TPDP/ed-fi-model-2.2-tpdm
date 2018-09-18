@@ -1,0 +1,13 @@
+Descriptor Accommodation [122]
+    documentation "This descriptor defines variations used in how an assessment is presented or taken."
+    with optional map type
+        documentation "The variations used in how an assessment is presented or taken."
+        item "Scheduling accommodation" [122-004]
+        item "Settings accommodation" [122-005]
+        item "Student equipment/technology" [122-006]
+        item "Test administration accommodation" [122-007]
+        item "Test material accommodation" [122-008]
+        item "Test response accommodation" [122-009]
+        item "English language learner accommodation" [122-002]
+        item "504 accommodation" [122-001]
+        item "Other" [122-003]

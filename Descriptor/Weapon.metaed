@@ -1,0 +1,27 @@
+Descriptor Weapon [250]
+    documentation "This descriptor defines the types of weapon used during an incident."
+    with optional map type
+        documentation "The category for the types of weapon used during an incident."
+        item "Handgun" [250-002]
+            documentation "Any firearm which has a short stock and is designed to be held and fired by the use of a single hand."
+        item "Rifle/Shotgun" [250-008]
+            documentation
+"Shotgun:
+A weapon designed or redesigned, made or remade, and intended to be fired from the shoulder and designed or redesigned and made or remade to use the energy of an explosive to fire through a smooth bore either a number of ball shots or a single projectile for each single pull of the trigger.
+Rifle:
+A weapon designed or redesigned, made or remade, and intended to be fired from the shoulder and designed or redesigned and made or remade to use the energy of an explosive to fire only a single projectile through a rifled bore for each single pull of the trigger."
+        item "Other Firearm" [250-005]
+            documentation "Other type of firearm."
+        item "Club" [250-001]
+        item "Other Sharp Objects" [250-007]
+            documentation "The weapon involved was another type of sharp object, (e.g., razor blade, ice pick, dirk, Chinese star, other pointed instrument [used as a weapon])."
+        item "Other Object" [250-006]
+            documentation "The weapon involved was another known object (e.g., chain, nunchakus, brass knuckle, billy club, electrical weapon or device [stun gun], BB or pellet gun)."
+        item "Substance Used as Weapon" [250-009]
+            documentation "The weapon involved was a substance (e.g., mace, tear gas) that was used as a weapon."
+        item "Knife" [250-003]
+            documentation "The weapon involved was a knife."
+        item "Unknown" [250-010]
+            documentation "A weapon was used in the incident, but the type is unknown."
+        item "Other" [250-004]
+            documentation "The incident involved a weapon other than those described above."

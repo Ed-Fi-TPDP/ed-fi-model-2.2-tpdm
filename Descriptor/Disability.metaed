@@ -1,0 +1,47 @@
+Descriptor Disability [162]
+    documentation "This descriptor defines a student's impairment."
+    enumeration DisabilityCategory [294]
+        documentation "Whether the disability code is IDEA, Section 504, or other disability designation."
+        is required
+    with optional map type
+        documentation "A disability condition that describes a child's impairment."
+        item "Autism Spectrum Disorders" [162-001]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Deaf-Blindness" [162-002]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Hearing Impairment, including Deafness" [162-003]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Intellectual Disability" [162-005]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Infant/Toddler with a Disability" [162-004]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Medical condition" [162-006]
+            documentation "This disability falls in the DisabilityCategory of Section 504."
+        item "Mental impairment" [162-007]
+            documentation "This disability falls in the DisabilityCategory of Section 504."
+        item "Motor impairment" [162-008]
+            documentation "This disability falls in the DisabilityCategory of Section 504."
+        item "Multiple Disabilities" [162-009]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Orthopedic Impairment" [162-010]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Other" [162-011]
+            documentation "This disability falls in the DisabilityCategory of Section 504."
+        item "Other Health Impairment" [162-012]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Physical Disability" [162-013]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Preschooler with a Disability" [162-014]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Sensory impairment" [162-015]
+            documentation "This disability falls in the DisabilityCategory of Section 504."
+        item "Serious Emotional Disability" [162-016]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Speech or Language Impairment" [162-018]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Specific Learning Disability" [162-017]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Traumatic Brain Injury" [162-019]
+            documentation "This disability falls in the DisabilityCategory of IDEA."
+        item "Visual Impairment, including Blindness" [162-020]
+            documentation "This disability falls in the DisabilityCategory of IDEA."

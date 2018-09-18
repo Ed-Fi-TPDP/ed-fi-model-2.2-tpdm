@@ -1,0 +1,14 @@
+Descriptor EmploymentStatus [170]
+    documentation "This descriptor defines the type of employment or contract."
+    with map type
+        documentation "Reflects the type of employment or contract."
+        item "Probationary" [170-007]
+        item "Contractual" [170-001]
+        item "Substitute/temporary" [170-008]
+        item "Tenured or permanent" [170-009]
+        item "Volunteer/no contract" [170-010]
+        item "Employed or affiliated with outside organization" [170-003]
+        item "Non-contractual" [170-005]
+        item "Employed part-time" [170-004]
+        item "Employed or affiliated with outside agency part-time" [170-002]
+        item "Other" [170-006]

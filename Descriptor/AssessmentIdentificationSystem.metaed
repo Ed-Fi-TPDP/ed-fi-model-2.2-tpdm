@@ -1,0 +1,11 @@
+Descriptor AssessmentIdentificationSystem [129]
+    documentation "This descriptor holds a coding scheme that is used for identification and record-keeping purposes by schools, social services or other agencies to refer to an assessment."
+    with map type
+        documentation "A coding scheme that is used for identification and record-keeping purposes by schools, social services or other agencies to refer to an assessment."
+        item "District" [129-001]
+        item "Federal" [129-002]
+        item "Other" [129-003]
+        item "Other Federal" [129-004]
+        item "School" [129-005]
+        item "State" [129-006]
+        item "Test Contractor" [129-007]

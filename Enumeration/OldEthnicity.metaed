@@ -1,0 +1,7 @@
+Enumeration OldEthnicity [200]
+    documentation "Previous definition of Ethnicity combining Hispanic/Latino and Race."
+    item "American Indian Or Alaskan Native" [200-001]
+    item "Asian Or Pacific Islander" [200-002]
+    item "Black, Not Of Hispanic Origin" [200-003]
+    item "Hispanic" [200-004]
+    item "White, Not Of Hispanic Origin" [200-005]

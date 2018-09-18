@@ -1,0 +1,10 @@
+Enumeration MethodCreditEarned [198]
+    documentation "The method the credits were earned, for example:  Classroom, Examination, Transfer."
+    item "Classroom credit" [198-001]
+    item "Converted occupational experience credit" [198-002]
+    item "Correspondence credit" [198-003]
+    item "Credit by examination" [198-004]
+    item "Credit recovery" [198-005]
+    item "Online credit" [198-006]
+    item "Other" [198-008]
+    item "Transfer credit" [198-007]

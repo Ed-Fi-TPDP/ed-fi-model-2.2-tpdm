@@ -1,0 +1,13 @@
+Descriptor CourseIdentificationSystem [149]
+    documentation "This descriptor defines a standard code that identifies the organization of subject matter and related learning experiences provided for the instruction of students."
+    with optional map type
+         documentation "A system that is used to identify the organization of subject matter and related learning experiences provided for the instruction of students. In addition to identifying courses using the appropriate state codes, cross referencing courses with one of the national course codes is encouraged."
+        item "CSSC course code" [149-001]
+        item "Intermediate agency course code" [149-002]
+        item "LEA course code" [149-003]
+        item "NCES Pilot SNCCS course code" [149-004]
+        item "Other" [149-005]
+        item "SCED course code" [149-006]
+        item "School course code" [149-007]
+        item "State course code" [149-008]
+        item "University course code" [149-009]

@@ -1,0 +1,16 @@
+Enumeration EducationPlan [168]
+    documentation "The type of education plan(s) the student is following, if appropriate. For example:
+    Special education
+    Vocational."
+    item "504 Plan" [168-001]
+    item "Career Pathways" [168-002]
+    item "Career Suggestions" [168-003]
+    item "Completion and Reach Age 22" [168-004]
+    item "Employability Skills" [168-005]
+    item "Full Time Employment" [168-006]
+    item "High School Education Plan" [168-007]
+    item "IDEA IEP" [168-008]
+    item "Other" [168-012]
+    item "Outside Service Access" [168-009]
+    item "Personal Graduation Plan" [168-010]
+    item "Student Success Plan" [168-011]

@@ -1,0 +1,76 @@
+Enumeration Relation [218]
+    documentation "The nature of an individual's relationship to a student."
+    item "Aunt" [218-001]
+        documentation "The person is the learner's Aunt."
+    item "Brother" [218-002]
+        documentation "The person is the learner's Brother."
+    item "BrotherInLaw" [218-003]
+        documentation "The person is the learner's BrotherInLaw."
+    item "CourtAppointedGuardian" [218-004]
+        documentation "The person is the learner's court appointed guardian."
+    item "Cousin" [218-005]
+        documentation "The person is the learner's cousin."
+    item "Daughter" [218-006]
+        documentation "The person is the learner's daughter."
+    item "DaughterInLaw" [218-007]
+        documentation "The person is the learner's daughterinlaw."
+    item "Employer" [218-008]
+        documentation "The person is the learner's employer."
+    item "Father" [218-009]
+        documentation "The person is the learner's father."
+    item "Father, step" [218-010]
+        documentation "The person is the learner's father, step."
+    item "FathersSignificantOther" [218-013]
+        documentation "The person is the learner's father significant other."
+    item "FathersCivilPartner" [218-012]
+        documentation "The person is the learner's father civil partner."
+    item "FatherInLaw" [218-011]
+        documentation "The person is the learner's father in law."
+    item "Fiance" [218-014]
+        documentation "The person is the learner's fiance."
+    item "Fiancee" [218-015]
+        documentation "The person is the learner's fiancee."
+    item "Foster parent" [218-016]
+        documentation "The person is the learner's foster parent."
+    item "Friend" [218-017]
+        documentation "The person is the learner's friend."
+    item "Grandfather" [218-018]
+        documentation "The person is the learner's grandfather."
+    item "Grandmother" [218-019]
+        documentation "The person is the learner's grandmother."
+    item "Great aunt" [218-020]
+        documentation "The person is the learner's great aunt."
+    item "Great uncle" [218-022]
+        documentation "The person is the learner's great uncle."
+    item "Great Grandparent" [218-021]
+        documentation "The person is the learner's great grandparent."
+    item "Husband" [218-023]
+        documentation "The person is the learner's husband."
+    item "MothersSignificantOther" [218-027]
+        documentation "The person is the learner's mother significant other."
+    item "Mother" [218-024]
+        documentation "The person is the learner's mother."
+    item "Mother, step" [218-025]
+        documentation "The person is the learner's step mother."
+    item "MothersCivilPartner" [218-026]
+        documentation "The person is the learner's mother's civil partner."
+    item "Nephew" [218-028]
+        documentation "The person is the learner's nephew."
+    item "Niece" [218-029]
+        documentation "The person is the learner's niece."
+    item "Other" [218-030]
+        documentation "The person is the learner's other."
+    item "SignificantOther" [218-031]
+        documentation "The person is the learner's significant other."
+    item "Sister" [218-032]
+        documentation "The person is the learner's sister."
+    item "Son" [218-033]
+        documentation "The person is the learner's son."
+    item "Unknown" [218-035]
+        documentation "The person is the learner's unknown."
+    item "Uncle" [218-034]
+        documentation "The person is the learner's uncle."
+    item "Ward" [218-036]
+        documentation "The person is the learner's ward."
+    item "Wife" [218-037]
+        documentation "The person is the learner's wife."

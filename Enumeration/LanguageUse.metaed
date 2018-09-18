@@ -1,0 +1,10 @@
+Enumeration LanguageUse [190]
+    documentation "The category denoting how a language is used."
+    item "Home language" [190-003]
+    item "Spoken language" [190-007]
+    item "Written language" [190-008]
+    item "Correspondence language" [190-001]
+    item "Dominant language" [190-002]
+    item "Native language" [190-004]
+    item "Other language proficiency" [190-006]
+    item "Other" [190-005]

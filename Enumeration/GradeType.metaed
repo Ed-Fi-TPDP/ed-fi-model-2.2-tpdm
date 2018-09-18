@@ -1,0 +1,9 @@
+Enumeration GradeType [177]
+    documentation "The type of grade in a report card or transcript (e.g., Final, Exam, Grading Period)."
+    item "Conduct" [177-001]
+    item "Exam" [177-002]
+    item "Final" [177-003]
+    item "Grading Period" [177-004]
+    item "Mid-Term Grade" [177-005]
+    item "Progress Report" [177-006]
+    item "Semester" [177-007]

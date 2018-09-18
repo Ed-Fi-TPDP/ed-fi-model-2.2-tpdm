@@ -1,0 +1,10 @@
+Enumeration GradebookEntryType [175]
+    documentation "The type of the gradebook entry; for example, homework, assignment, quiz, unit test, oral presentation, etc."
+    item "Activity" [175-001]
+    item "Assignment" [175-002]
+    item "Classroom Assessment" [175-003]
+    item "Homework" [175-004]
+    item "Lesson" [175-005]
+    item "Oral Presentation" [175-006]
+    item "Quiz" [175-007]
+    item "Unit Test" [175-008]

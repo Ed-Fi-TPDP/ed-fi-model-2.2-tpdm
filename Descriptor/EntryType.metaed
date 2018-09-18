@@ -1,0 +1,9 @@
+Descriptor EntryType [172]
+    documentation "This descriptor defines the process by which a student enters a school during a given academic session."
+    with optional map type
+        documentation "The process by which a student enters a school during a given academic session."
+        item "Transfer" [172-005]
+        item "Re-entry" [172-004]
+        item "Next year school" [172-002]
+        item "New to education system" [172-001]
+        item "Other" [172-003]

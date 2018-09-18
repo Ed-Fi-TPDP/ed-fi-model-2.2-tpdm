@@ -1,0 +1,11 @@
+Domain Entity CalendarDate [545]
+    documentation "This entity represents a day in the school calendar."
+    date Date [1271]
+        documentation "The month, day, and year of the CalendarDate."
+        is part of identity
+    domain entity School [2426]
+        documentation "The school for which the calendar event is defined."
+        is part of identity
+    common CalendarEvent [1270]
+        documentation "Additional description of the date such as date classification and duration of the event."
+        is required collection

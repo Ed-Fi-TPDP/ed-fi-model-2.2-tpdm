@@ -1,0 +1,11 @@
+Common PerformanceLevel [519]
+    documentation "A performance level value that describes student proficiency."
+    bool PerformanceLevelMet [890]
+        documentation "Optional indicator of whether the performance level was met."
+        is required
+    descriptor PerformanceLevel [889]
+        documentation "A specification of which performance level value describes the student proficiency."
+        is part of identity
+    enumeration AssessmentReportingMethod
+        documentation "The method that the instructor of the class uses to report the performance and achievement of all students. It may be a qualitative method such as individualized teacher comments or a quantitative method such as a letter or numerical grade. In some cases, more than one type of reporting method may be used."
+        is part of identity

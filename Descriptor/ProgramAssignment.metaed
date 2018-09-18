@@ -1,0 +1,10 @@
+Descriptor ProgramAssignment [209]
+    documentation "This descriptor defines the name of the education program for which a teacher is assigned to a school."
+    with optional map type
+        documentation "The name of the education program for which a teacher is assigned to a school."
+        item "Regular Education" [209-003]
+        item "Title I-Academic" [209-005]
+        item "Title I-Non-Academic" [209-006]
+        item "Special Education" [209-004]
+        item "Bilingual/English as a Second Language" [209-001]
+        item "Other" [209-002]

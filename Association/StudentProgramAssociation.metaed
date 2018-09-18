@@ -1,0 +1,25 @@
+Association StudentProgramAssociation [612]
+    documentation "This association represents the Program(s) that a student participates in or is served by."
+    domain entity Student [1110]
+        documentation "The Student associated with the Program."
+    domain entity Program [1106]
+        documentation "The Program associated with the Student."
+        with context Program
+    common Service [1109]
+        documentation "Indicates the Service(s) being provided to the Student by the Program."
+        is optional collection
+    date BeginDate [1103]
+        documentation "The month, day, and year on which the Student first received services."
+        is part of identity
+    date EndDate [1105]
+        documentation "The month, day, and year on which the Student exited the Program or stopped receiving services."
+        is optional
+    descriptor ReasonExited [1107]
+        documentation "The reason the child left the Program within a school or district."
+        is optional
+    domain entity EducationOrganization [1104]
+        documentation "The EducationOrganization where the Student is participating in or receiving the Program services."
+        is part of identity
+    bool ServedOutsideOfRegularSession [1108]
+        documentation "Indicates whether the Student received services during the summer session or between sessions."
+        is optional

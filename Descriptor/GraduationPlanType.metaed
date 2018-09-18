@@ -1,0 +1,9 @@
+Descriptor GraduationPlanType [179]
+    documentation "This descriptor defines the set of graduation plan types."
+    with optional map type
+        documentation "The type of academic plan the student is following for graduation."
+        item "Career and Technical Education" [179-001]
+        item "Distinguished" [179-002]
+        item "Minimum" [179-003]
+        item "Recommended" [179-004]
+        item "Standard" [179-005]

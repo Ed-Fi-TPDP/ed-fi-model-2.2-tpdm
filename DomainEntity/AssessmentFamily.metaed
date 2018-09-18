@@ -1,0 +1,51 @@
+Domain Entity AssessmentFamily [541]
+    documentation "This entity represents a logical grouping or association of assessments that share a common purpose, heritage or content standard. There may be hierarchiesof assessment families, characteristics (e.g., Academic Subject) specified for assessment families, by convention, are inherited by the Assessments associated with the AssessmentFamily."
+    shared string AssessmentTitle named AssessmentFamilyTitle [1245]
+        documentation "The title or name of the AssessmentFamily."
+        is part of identity
+        is queryable field
+    common AssessmentFamilyIdentificationCode [1244]
+        documentation "A unique number or alphanumeric code assigned to an assessment family by a school, school system, a state, or other agency or entity."
+        is required collection
+        is queryable field
+    descriptor AssessmentCategory [1243]
+        documentation "The category of an assessment based on format and content. For example: Achievement test, Advanced placement test, Alternate assessment/grade-level standards, Attitudinal test, Cognitive, and perceptual skills test, etc."
+        is optional
+        is queryable field
+    descriptor AcademicSubject [1241]
+        documentation "The description of the content or subject area (e.g., arts, mathematics, reading, stenography, or a foreign language) of an assessment family."
+        is optional
+    descriptor GradeLevel [1242]
+        documentation "The typical grade level for which an assessment family is designed. If the assessment spans a range of grades, then this attribute holds the highest grade assessed. If only one grade level is assessed then only this attribute is used. For example: Adult, Prekindergarten, First grade, Second grade, etc."
+        is optional
+        with context Assessed
+    descriptor GradeLevel [1249]
+        documentation "If the assessment spans a range of grades, then this attribute holds the lowest grade assessed. If only one grade level is assessed, then this attribute is omitted."
+        is optional
+        with context LowestAssessed
+    common ContentStandard [1247]
+        documentation "An indication as to whether an assessment conforms to a standard (e.g., local standard, statewide standard, regional standard, association standard)."
+        is optional
+    descriptor Language [1248]
+        documentation "An indication of the languages in which the AssessmentFamily is designed."
+        is optional collection
+    shared integer Version [1253]
+        documentation "The version identifier for the AssessmentFamily."
+        is optional
+        is queryable field
+    date RevisionDate [1252]
+        documentation "The month, day, and year that the conceptual design for the AssessmentFamily was most recently revised substantially."
+        is optional
+    shared string Nomenclature [1250]
+        documentation "Reflects the specific nomenclature used for this level of AssessmentFamily."
+        is optional
+    descriptor AssessmentPeriod [1246]
+        documentation "The periods or windows defined in which an assessment is supposed to be administered."
+        is optional collection
+    domain entity AssessmentFamily [1251]
+        documentation "References the higher level AssessmentFamily the AssessmentFamily belongs to."
+        is optional
+        with context Parent
+    shared string URI named Namespace [2301]
+        documentation "Namespace for the Assessments in this AssessmentFamily."
+        is required

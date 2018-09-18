@@ -1,0 +1,7 @@
+Enumeration IntegratedTechnologyStatus [184]
+    documentation "An indication of the extent to which the district has effectively and fully integrated technology, as defined by the state."
+    item "Developing" [184-002]
+    item "Approaching" [184-001]
+    item "Meets" [184-004]
+    item "Fully integrated" [184-003]
+    item "Not required to report" [184-005]

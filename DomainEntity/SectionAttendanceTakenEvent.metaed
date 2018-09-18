@@ -1,0 +1,15 @@
+Domain Entity SectionAttendanceTakenEvent [581]
+    documentation "Captures attendance taken event for given section."
+    domain entity Section [1635]
+        documentation "NEEDS DOCUMENTATION"
+        is part of identity
+    domain entity CalendarDate [1633]
+        documentation "NEEDS DOCUMENTATION"
+        is part of identity
+        merge CalendarDate.School with Section.Location.School
+    date EventDate [1634]
+        documentation "The date the SectionAttendanceTakenEvent was submitted, which could be a different date than the instructional day."
+        is required
+    domain entity Staff [1636]
+        documentation "NEEDS DOCUMENTATION"
+        is optional

@@ -1,0 +1,5 @@
+Descriptor Level [314]
+    documentation "This descriptor defines the grade level(s) certified for teaching."
+    descriptor GradeLevel [315]
+        documentation "The mapping to known grade levels for which certification exists."
+        is optional collection

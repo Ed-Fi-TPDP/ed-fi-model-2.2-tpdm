@@ -1,0 +1,9 @@
+Enumeration InstitutionTelephoneNumberType [183]
+    documentation "The type of communication number listed for an organization."
+    item "Main" [183-006]
+    item "Administrative" [183-001]
+    item "Health Clinic" [183-005]
+    item "Attendance" [183-002]
+    item "Other" [183-007]
+    item "Fax" [183-003]
+    item "Food Service" [183-004]

@@ -1,0 +1,9 @@
+Descriptor AttendanceEventCategory [133]
+    documentation "This descriptor holds the category of the attendance event (e.g., tardy). The map to known enumeration values is required."
+    with map type
+        documentation "A code categorizing the attendance event (e.g., excused absence, unexcused absence)."
+        item "In Attendance" [133-003]
+        item "Excused Absence" [133-002]
+        item "Unexcused Absence" [133-005]
+        item "Tardy" [133-004]
+        item "Early departure" [133-001]

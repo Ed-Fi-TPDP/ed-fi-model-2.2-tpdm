@@ -1,0 +1,11 @@
+Enumeration DisabilityDeterminationSourceType [2421]
+    documentation "The source that provided the disability determination."
+    item "By physician" [2421-001]
+    item "By health care provider" [2421-002]
+    item "By school psychologist or other psychologist" [2421-003]
+    item "By licensed physical therapist" [2421-004]
+    item "Self-reported" [2421-005]
+    item "By social service or other type of agency" [2421-006]
+    item "Not applicable to the student" [2421-097]
+    item "Unknown or Unreported" [2421-098]
+    item "Other" [2421-099]

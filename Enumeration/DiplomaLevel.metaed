@@ -1,0 +1,9 @@
+Enumeration DiplomaLevel [159]
+    documentation "The level of diploma/credential that is awarded to a student in recognition of his/her completion of the curricular requirements."
+    item "Minimum" [159-004]
+    item "Recommended" [159-006]
+    item "Distinguished" [159-002]
+    item "Open Enrollment" [159-005]
+    item "Cum laude" [159-001]
+    item "Magna cum laude" [159-003]
+    item "Summa cum laude" [159-007]

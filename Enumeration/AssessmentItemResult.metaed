@@ -1,0 +1,11 @@
+Enumeration AssessmentItemResult [131]
+    documentation "The analyzed result of a student's response to an assessment item.. For example:
+    Correct
+    Incorrect
+    Met standard
+    ..."
+    item "Correct" [131-003]
+    item "Incorrect" [131-004]
+    item "Above Standard" [131-001]
+    item "Below Standard" [131-002]
+    item "Met Standard" [131-005]

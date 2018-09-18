@@ -1,0 +1,7 @@
+Enumeration PublicationStatus [213]
+    documentation "The publication status of the document (i.e., Adopted, Draft, Published, Deprecated, Unknown)."
+    item "Adopted" [213-001]
+    item "Draft" [213-003]
+    item "Published" [213-004]
+    item "Deprecated" [213-002]
+    item "Unknown" [213-005]

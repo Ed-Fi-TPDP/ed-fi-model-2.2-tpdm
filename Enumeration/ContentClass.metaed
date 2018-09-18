@@ -1,0 +1,7 @@
+Enumeration ContentClass [143]
+    documentation "The predominate type or kind characterizing the learning resource."
+    item "Presentation" [143-002]
+    item "Education Research" [143-001]
+    item "Vendor Intervention Offering" [143-003]
+    item "Written Activity" [143-005]
+    item "Video" [143-004]

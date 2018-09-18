@@ -1,0 +1,7 @@
+Enumeration TitleIPartAParticipant [247]
+    documentation "An indication of the type of Title I program, if any, in which the student is participating and served."
+    item "Public Targeted Assistance Program" [247-004]
+    item "Public Schoolwide Program" [247-003]
+    item "Private school students participating" [247-002]
+    item "Local Neglected Program" [247-001]
+    item "Was not served" [247-005]

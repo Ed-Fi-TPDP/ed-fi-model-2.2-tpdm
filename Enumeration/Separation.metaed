@@ -1,0 +1,6 @@
+Enumeration Separation [234]
+    documentation "Type of employment separation; for example:  Voluntary separation, Involuntary separation, Mutual agreement. Other, etc."
+    item "Voluntary separation" [234-004]
+    item "Involuntary separation" [234-001]
+    item "Mutual agreement" [234-002]
+    item "Other" [234-003]

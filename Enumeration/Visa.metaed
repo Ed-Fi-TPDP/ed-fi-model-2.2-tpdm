@@ -1,0 +1,9 @@
+Enumeration Visa [249]
+    documentation "An indicator of a non-U.S. citizen's Visa type."
+    item "F1 - Foreign Student Visa" [249-003]
+    item "M1 - Foreign Student pursuing vocational or non-academic studies Visa" [249-006]
+    item "H1 - Employment Visa" [249-004]
+    item "B1 - Business Visa" [249-001]
+    item "B2 - Tourist Visa" [249-002]
+    item "J1 - Exchange Scholar Visa" [249-005]
+    item "Other Visa" [249-007]

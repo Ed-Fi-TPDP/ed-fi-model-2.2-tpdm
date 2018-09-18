@@ -1,0 +1,13 @@
+Enumeration PostSecondaryEventCategory [207]
+    documentation "A code describing the type of post-secondary event (e.g., college application or acceptance)."
+    item "Certification Received" [207-001]
+    item "College Application" [207-003]
+    item "College Acceptance" [207-002]
+    item "College Degree Received" [207-004]
+    item "College Enrollment" [207-005]
+    item "College Selection" [207-007]
+    item "FAFSA Application" [207-008]
+    item "Student Interest" [207-011]
+    item "Remedial Enrollment - ELA" [207-009]
+    item "Remedial Enrollment - Math" [207-010]
+    item "College Exit Date" [207-006]

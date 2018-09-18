@@ -1,0 +1,11 @@
+Enumeration CurriculumUsed [156]
+    documentation "The type of curriculum used in an early learning classroom or group."
+    item "Creative curriculum infants/toddlers" [156-002]
+    item "Creative curriculum preschool" [156-003]
+    item "Creative curriculum family child care" [156-001]
+    item "Highscope preschoolers" [156-005]
+    item "Highscope infants/toddlers" [156-004]
+    item "Montessori curriculum" [156-007]
+    item "Locally designed curriculum" [156-006]
+    item "Other curriculum" [156-009]
+    item "None" [156-008]

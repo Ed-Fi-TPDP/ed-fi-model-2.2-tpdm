@@ -1,0 +1,8 @@
+Enumeration ResultDatatypeType [225]
+    documentation "The results can be expressed as a number, percentile, range, level, etc."
+    item "Integer" [225-002]
+    item "Decimal" [225-001]
+    item "Percentage" [225-004]
+    item "Percentile" [225-005]
+    item "Range" [225-006]
+    item "Level" [225-003]

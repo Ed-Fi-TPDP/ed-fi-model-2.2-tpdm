@@ -1,0 +1,11 @@
+Enumeration CohortScope [140]
+    documentation "The scope of cohort (e.g., school, district, classroom)."
+    item "District" [140-003]
+    item "School" [140-007]
+    item "Network" [140-004]
+    item "Classroom" [140-001]
+    item "Teacher" [140-009]
+    item "Principal" [140-006]
+    item "Counselor" [140-002]
+    item "Statewide" [140-008]
+    item "Other" [140-005]

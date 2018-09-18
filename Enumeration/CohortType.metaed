@@ -1,0 +1,13 @@
+Enumeration CohortType [141]
+    documentation "The type of the cohort (e.g., academic intervention, classroom breakout)."
+    item "Academic Intervention" [141-001]
+    item "Attendance Intervention" [141-002]
+    item "Discipline Intervention" [141-005]
+    item "Classroom Pullout" [141-003]
+    item "Extracurricular Activity" [141-006]
+    item "Field Trip" [141-007]
+    item "Principal Watch List" [141-010]
+    item "Counselor List" [141-004]
+    item "In-school Suspension" [141-008]
+    item "Study Hall" [141-011]
+    item "Other" [141-009]

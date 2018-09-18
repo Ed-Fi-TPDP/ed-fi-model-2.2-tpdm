@@ -1,0 +1,14 @@
+{
+  "name": "ed-fi-model-2.2",
+  "version": "1.0.1",
+  "description": "The Ed-Fi Data Standard v2.2 as defined in MetaEd",
+  "repository": "https://github.com/Ed-Fi-Alliance/Ed-Fi-Model",
+  "license": "private",
+  "publishConfig": {
+    "registry": "https://www.myget.org/F/ed-fi/npm/"
+  },
+  "metaEdProject": {
+    "projectName": "Ed-Fi",
+    "projectVersion": "2.2.0"
+  }
+}

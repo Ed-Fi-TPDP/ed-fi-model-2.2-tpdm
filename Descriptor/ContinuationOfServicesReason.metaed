@@ -1,0 +1,7 @@
+Descriptor ContinuationOfServicesReason [144]
+    documentation "In the Migrant Education program, a provision allows continuation of services after a child is no longer considered migratory for certain reasons. This descriptor holds the reasons prescribed in the statute. The mapping of descriptor values to known Ed-Fi enumeration values is required."
+    with map type
+        documentation "In the Migrant Education program, a provision allows continuation of services after a child is no longer considered migratory for certain reasons. This type holds the reasons prescribed in the statute."
+        item "Ceased to be migratory during school term" [144-002]
+        item "Ceased to be migratory during previous school term and no comparable services are available" [144-001]
+        item "Previously migratory secondary student continuing secondary school credit accrual" [144-003]
