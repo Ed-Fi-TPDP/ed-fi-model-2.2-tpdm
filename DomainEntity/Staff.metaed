@@ -76,9 +76,9 @@ Domain Entity Staff [583]
     shared decimal NumberOfYears named YearsOfPriorTeachingExperience [1666]
         documentation "The total number of years that an individual has previously held a teaching position in one or more education institutions."
         is optional
-    common Credential [1649]
-        documentation "The legal document or authorization giving authorization to perform teaching assignment services."
-        is optional collection
+//    common Credential [1649]
+//        documentation "The legal document or authorization giving authorization to perform teaching assignment services."
+//        is optional collection
     shared string IdentificationCode named LoginId [1656]
         documentation "The login ID for the user; used for security access control interface."
         is optional
